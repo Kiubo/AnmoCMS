@@ -42,7 +42,7 @@ overflow:
 </div>
 <a href="<?= $config['hotelUrl'] ?>/client" target="_blank" class="green-button-1 no-link" style="width: 170px;height: 42px;">
 <label class="margin-auto white">
-<h5>Entrar al Hotel</h5>
+<h5>Entrasar al Hotel</h5>
 </label>
 </a>
 </div>
