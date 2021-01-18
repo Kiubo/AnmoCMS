@@ -14,6 +14,6 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-For vulnerability reports, go to: https://github.com/Kiubo/AnmoCMS/issues ; and report any vulnerability or issue you have. I'll be updating the project during this years.
+For vulnerability reports, go to: https://github.com/Kiubo/AnmoCMS/issues ; and report any vulnerability or issue you have. I'll be updating the project during this year, attending and solving any errors that appear.
 
-Wait for new verisions, Anmo it's not finished yet this is just a type of Beta for find new bugs or stuff like that, duing this week i will be developing a dark theme versión. Hope you like it.
+If you want to use it for open your own hotel wait for new verisions, Anmo it's not finished yet this is just a type of Beta for find new bugs or stuff like that, during this week i will be developing a dark theme versión. Hope you like it.
