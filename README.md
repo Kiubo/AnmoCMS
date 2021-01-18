@@ -18,5 +18,5 @@
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/devraizer/AnmoCMS.git`
+- Clone this repo to your local machine using `https://github.com/Kiubo/AnmoCMS.git`
 
