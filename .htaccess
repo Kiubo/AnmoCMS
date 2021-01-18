@@ -1,0 +1,33 @@
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ index.php?url=$1
+RewriteRule ^news/([a-zA-Z0-9_-]+)(|/)$ index.php?url=news&id=$1
+RewriteRule ^home/([a-zA-Z0-9_-]+)(|/)$ index.php?url=home&user=$1
+RewriteRule ^group/([a-zA-Z0-9_-]+)(|/)$ index.php?url=group&g=$1
+RewriteRule ^foro/categoria/([a-zA-Z0-9_-]+)(|/)$ index.php?url=categoria&link=$1
+RewriteRule ^foro/categoria/tema/([a-zA-Z0-9_-]+)(|/)$ index.php?url=tema&link=$1
+RewriteRule ^foro/editar/tema/([a-zA-Z0-9_-]+)(|/)$ index.php?url=edit&id=$1
+RewriteRule ^foro/borrar/tema/([a-zA-Z0-9_-]+)(|/)$ index.php?url=delete&id=$1
+RewriteRule ^foro/reportar/tema/([a-zA-Z0-9_-]+)(|/)$ index.php?url=reportartema&id=$1
+RewriteRule ^foro/editar/respuesta/([a-zA-Z0-9_-]+)(|/)$ index.php?url=editar&id=$1
+RewriteRule ^foro/borrar/respuesta/([a-zA-Z0-9_-]+)(|/)$ index.php?url=borrar&id=$1
+RewriteRule ^foro/nuevo/tema index.php?url=nuevo
+RewriteRule ^ajustes/email index.php?url=ajusteemail
+RewriteRule ^ajustes/password index.php?url=ajustecontra
+RewriteRule ^ajustes/foro index.php?url=ajusteforo
+RewriteRule ^staffs/alfas index.php?url=alfas
+RewriteRule ^client/room/([a-zA-Z0-9_-]+)(|/)$ index.php?url=client&roomId=$1
+
+
+RewriteRule ^habbo-imaging/avatarimage(|/)$ ./habbo-imaging/avatar.php
+RewriteRule ^habbo-imaging/badge/(.*) ./habbo-imaging/badge.php?badge=$1
+RewriteRule ^habbo-imaging/head/(|/)$ ./habbo-imaging/user-badge/head.php
+
+RewriteRule ^register/([a-zA-Z0-9_-]+)(|/)$ index.php?url=register&userref=$1
+RewriteRule ^registro/ref/([a-zA-Z0-9_-]+)(|/)$ index.php?url=registro&userref=$1
+RewriteRule ^newpassword/([a-zA-Z0-9_-]+)(|/)$ index.php?url=newpassword&key=$1
+
+RewriteRule ^habbo-imaging/badge/(.*) habbo-imaging/badge.php?badge=$1
+
+#THEME FUCTION HCITY
+RewriteRule ^avatar-generator(|/)$ nucleo/functions/add-ons/llamalook.php

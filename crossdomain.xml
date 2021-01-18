@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy>
+<site-control permitted-cross-domain-policies="master-only"/>
+<allow-access-from domain="*"/>
+<allow-access-from domain="*.habbomobile.co.uk"/>
+<allow-access-from domain="*.habbohotel.co.uk"/>
+<allow-access-from domain="*.habbo.co.uk"/>
+<allow-access-from domain="*.habbohotel.com"/>
+<allow-access-from domain="*.habbo.com"/>
+<allow-access-from domain="*.varoke.net"/>
+<allow-access-from domain="*.hotel.varoke.net"/>
+<allow-access-from domain="*.web.varoke.net"/>
+<allow-access-from domain="*.sulake.com"/>
+<allow-access-from domain="habbo.hs.llnwd.net"/>
+<allow-access-from domain="images-sulake.netdna-ssl.com"/>
+<allow-access-from domain="images-sulake.cotssl.net"/>
+<allow-access-from domain="habboo-a.akamaihd.net"/>
+<allow-access-from domain="i2s9t8y9.ssl.hwcdn.net"/>
+<allow-access-from domain="habbo-stories-content.s3.amazonaws.com"/>
+<allow-access-from domain="*.habbo.com" to-ports="993,25001-25010,38101,40001,40002,30000-30100"/>
+</cross-domain-policy>

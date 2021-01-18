@@ -1,0 +1,98 @@
+.flex-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-container.flex-direction-column {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex-container.flex-vertical-center {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-container.flex-horizontal-center {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.page-content {
+    width: 100%;
+    max-width: 1055px;
+    margin: 0 auto;
+    padding: 55px 0;
+    font-family: "Ubuntu Habbo", "Poppins", Arial, sans-serif;
+}
+.photos-container {
+    margin: -9px -9px 40px;
+}
+
+.photo-container2 {
+    width: 25%;
+    float: left;
+}
+
+.photo-content2 {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 9px auto;
+    position: sticky;
+    overflow: hidden;
+}
+
+.photo-picture {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    z-index: 1;
+    display: block;
+}
+
+.photo-meta {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    bottom: -85px;
+    z-index: 2;
+    color: #333;
+    text-decoration: none;
+    -webkit-transition: bottom 0.2s ease 0s;
+    transition: bottom 0.2s ease 0s;
+}
+
+.photo-content2:hover .photo-meta {
+    bottom: 2px;
+}
+
+.photo-content2 .photo-meta .photo-meta-left-side {
+    width: 60px;
+    height: 78px;
+    text-align: center;
+    font-size: 0;
+}
+
+.photo-content2 .photo-meta .photo-meta-right-side {
+    padding-right: 10px;
+}
+
+.creator-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.photos-container .photo-container .photo-content .photo-meta .photo-meta-right-side .published-date {
+    font-size: 12px;
+    font-weight: 400;
+}

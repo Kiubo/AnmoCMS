@@ -1,0 +1,12 @@
+
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ index.php?url=$1
+RewriteRule ^news/edit/([a-zA-Z0-9_-]+)(|/)$ index.php?url=editnews&news=$1
+RewriteRule ^news/delete/([a-zA-Z0-9_-]+)(|/)$ index.php?url=news&delete=$1
+RewriteRule ^bans/delete/([a-zA-Z0-9_-]+)(|/)$ index.php?url=bans&delete=$1
+RewriteRule ^report/delete/([a-zA-Z0-9_-]+)(|/)$ index.php?url=report&delete=$1
+RewriteRule ^badges/delete/([a-zA-Z0-9_-]+)(|/)$ index.php?url=badges&delete=$1
+RewriteRule ^user/edit/([a-zA-Z0-9_-]+)(|/)$ index.php?url=useredit&user=$1
+RewriteRule ^user/rank/([a-zA-Z0-9_-]+)(|/)$ index.php?url=user-rank&user=$1
+RewriteRule ^user/week/([a-zA-Z0-9_-]+)(|/)$ index.php?url=userweek&user=$1
