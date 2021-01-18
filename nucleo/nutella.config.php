@@ -4,8 +4,8 @@
  |_  \.--.--|  |_.-----|  |  .---.-.
  |.  ||  |  |_|  -__|  |  |  _  |
  |.  ||_____|____|_____|__|__|___._|
- |:  || CMS BY THE NUTELLA PROJECT 
- |::.|| WEBSITE: NUTELLA-PROJECT.COM 
+ |:  || CMS BY THE ANMOCMS PROJECT 
+ |::.|| 
  `--- ---' 
 ****************************************/
 
@@ -20,7 +20,7 @@ $db['db'] = "anmocms"; //Base de datos
 $config['hotelEmu'] = 'arcturus'; // plusemu // arcturus
 
 /* Dueño del hotel */
-$config['Autor'] = 'Fenix';
+$config['Autor'] = 'Key';
 
 /* Client Configuracion */
 $hotel['emuHost'] = "localhost"; //IP of VPS//IP of Proxy
